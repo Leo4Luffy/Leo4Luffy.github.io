@@ -7,8 +7,11 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "Acerca de mí"
-      icon: fa-angelist
+      icon: fa-hand-spock-o
       href: about.html
+    - text: "Mi investigación"
+      icon: fa-flask
+      href: research.html
   right:
   - icon: fa-github
     href: https://github.com/Leo4Luffy
