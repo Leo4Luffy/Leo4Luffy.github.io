@@ -2,4 +2,16 @@
 title: "About This Website"
 ---
 
-More about this website.
+<div style=»padding: 10px; float: left; width: 45%; text-align: justify;»>**¡Hola!** Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación.
+
+<p align="justify">Por favor, si tienes interés en comunicarte conmigo, **¡hazlo!**. Prontamente me comunicare contigo para ver en que te puedo ayudar.
+
+Mi correo: **jollopezma@unal.edu.co**</div> 
+
+
+<div style=»padding: 10px; float: right; width: 45%; text-align: justify;»>
+```{r Imagen}
+library(knitr)
+include_graphics('Imagenes/yop.jpg')
+```
+</div> 
