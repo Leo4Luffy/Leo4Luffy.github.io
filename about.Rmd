@@ -1,17 +1,54 @@
 ---
-title: "About This Website"
+title: ""
 ---
 
-<div style=»padding: 10px; float: left; width: 45%; text-align: justify;»>**¡Hola!** Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación.
+
+<br>
+<br>
+
+<div class = "row">
+
+<div class = "col-md-6">
+<p align="justify">**¡Hola!** Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación.
+
+<br>
 
 <p align="justify">Por favor, si tienes interés en comunicarte conmigo, **¡hazlo!**. Prontamente me comunicare contigo para ver en que te puedo ayudar.
 
-Mi correo: **jollopezma@unal.edu.co**</div> 
+<br>
 
+<p align="justify">Mi correo es: **jollopezma@unal.edu.co**
+</div>
 
-<div style=»padding: 10px; float: right; width: 45%; text-align: justify;»>
-```{r Imagen}
+<div class = "col-md-6">
+```{r Imagen, eval = TRUE, echo = FALSE, message = FALSE}
 library(knitr)
 include_graphics('Imagenes/yop.jpg')
 ```
-</div> 
+</div>
+</div>
+
+<br>
+
+```{r Mi línea de tiempo, eval = TRUE, echo = FALSE, message = FALSE}
+library(VisualResume)
+
+VisualResume(titles.left = '',
+             titles.right = '',
+             timeline = data.frame(title = c('', '', '', ''),
+                                   sub = c('Primaria y bachillerato en el\n Colegio La Salle', 'Zootecnia en la\n Universidad Nacional', 'Maestria en Ciencias Agrarias\n Universidad Nacional', 'Trabajo de independiente'),
+                                   start = c(1995, 2007, 2015, 2017),
+                                   end = c(2006, 2014, 2018, 2019),
+                                   side = c(1, 1, 0, 1)),
+             milestones = data.frame(title = '',
+                                     sub = '',
+                                     year = c(2006, 2014, 2018)),
+             events = data.frame(year = 2018,
+                                 title = 'Estimación de parámetros genéticos\n en vacas criollas colombianas.'),
+             interests = list("Programación" = c(rep("R", 10), "Python"),
+                              "Bioestadística" = c(rep("Estadística multivariada", 10), rep("Diseño experimental", 5), rep("Regresión", 3)),
+                              "Genética" = c(rep("Genética poblacional", 10), rep("Genética cuantitativa", 5))),
+             year.steps = 2
+)
+```
+

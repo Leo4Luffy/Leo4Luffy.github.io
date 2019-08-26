@@ -1,12 +1,19 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "Mi sitio personal"
+  title: "Mi sitio web personal"
   left:
     - text: "Inicio"
+      icon: fa-home
       href: index.html
     - text: "Acerca de mí"
+      icon: fa-angelist
       href: about.html
+  right:
+  - icon: fa-github
+    href: https://github.com/Leo4Luffy
+  - icon: fa-twitter
+    href: https://twitter.com/leo4luffy
 output:
   html_document:
     theme: simplex
