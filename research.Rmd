@@ -9,7 +9,7 @@ title: ""
 <div class = "row">
 
 <div class = "col-md-6">
-  + El libro **Modelos mixtos con R** esta disponible en [este](https://fhernanb.github.io/libro_modelos_mixtos/) enlace de internet.
+  + El libro **Modelos mixtos con R** esta disponible en este [enlace](https://fhernanb.github.io/libro_modelos_mixtos/) de internet.
 
 ```{r Imagen, , out.width = '240px', fig.align = 'center', eval = TRUE, echo = FALSE, message = FALSE}
 library(knitr)
