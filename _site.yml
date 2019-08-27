@@ -12,6 +12,11 @@ navbar:
     - text: "Mi investigación"
       icon: fa-flask
       href: research.html
+    - text: '#rstats'
+      menu:
+      - text: 
+        icon: 
+        href:
   right:
   - icon: fa-github
     href: https://github.com/Leo4Luffy
