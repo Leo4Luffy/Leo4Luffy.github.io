@@ -9,7 +9,7 @@ title: ""
 <div class = "row">
 
 <div class = "col-md-6">
-<p align="justify">**¡Hola!** Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación.
+<p align="justify">**¡Hola!** Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación.
 
 <br>
 

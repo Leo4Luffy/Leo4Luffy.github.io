@@ -9,7 +9,7 @@ title: ""
 <br>
 <br>
 
-```{r Imagen, fig.asp=0.25, out.width = "240px", fig.align = 'center', eval = TRUE, echo = FALSE, message = FALSE}
+```{r Imagen, fig.asp=0.25, out.width = '240px', fig.align = 'center', eval = TRUE, echo = FALSE, message = FALSE}
 library(knitr)
 include_graphics('Imagenes/ADN_programador.gif')
 ```
