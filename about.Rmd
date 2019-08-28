@@ -9,7 +9,7 @@ title: ""
 <div class = "row">
 
 <div class = "col-md-6">
-<p align="justify">**¡Hola!** Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. [Aquí](https://leo4luffy.github.io/Mi-CV/) podrás encontrar más información sobre mi trayectoria.
+<p align="justify">**¡Hola!** Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. [Aquí](https://leo4luffy.github.io/Mi_CV/) podrás encontrar más información sobre mi trayectoria.
 
 <br>
 
@@ -44,7 +44,7 @@ VisualResume(titles.left = '',
                                      sub = '',
                                      year = c(2006, 2014, 2018)),
              events = data.frame(year = 2018,
-                                 title = 'Estimación de parámetros genéticos\n en vacas criollas colombianas.'),
+                                 title = 'Modelación y estimación de parámetros genéticos\n en vacas criollas colombianas.'),
              interests = list("Programación" = c(rep("R", 10), "Python"),
                               "Bioestadística" = c(rep("Estadística multivariada", 10), rep("Diseño experimental", 5), rep("Regresión", 3)),
                               "Genética" = c(rep("Genética poblacional", 10), rep("Genética cuantitativa", 5))),
