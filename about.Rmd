@@ -9,7 +9,7 @@ title: ""
 <div class = "row">
 
 <div class = "col-md-6">
-<p align="justify">**¡Hola!** Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. [Aquí](https://leo4luffy.github.io/Mi_CV/) podrás encontrar más información sobre mi trayectoria.
+<p align="justify">**¡Hola!** Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. <a href="Documentos/CV.pdf" class="download" title="Aquí" target="_blank"> Aquí </a> podrás encontrar más información sobre mi trayectoria.
 
 <br>
 
