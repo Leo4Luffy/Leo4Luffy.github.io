@@ -28,4 +28,10 @@ include_graphics('Imagenes/LMM_R.jpg')
 <h2>**¡Artículos publicados!**</h1>
 </center>
 
-  + 
+  + **López Martínez J L**, Quijano Bernal J H y González Herrera L G. [Estimación de parámetros genéticos para producción de leche en el día de control y a los 305 días en primeras lactancias de vacas Lucerna](http://www.lrrd.org/public-lrrd/proofs/lrrd3111/luggo31179.html). *
+Livestock Research for Rural Development*.
+
+> <i class="far fa-copy"></i>
+<a href="Documentos/1er_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**
+
+</div>
