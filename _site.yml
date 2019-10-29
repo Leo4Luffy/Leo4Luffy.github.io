@@ -14,9 +14,9 @@ navbar:
       href: research.html
     - text: '#rstats'
       menu:
-      - text: 
-        icon: 
-        href:
+      - text: Datos de Miércoles 
+        icon: fa-calendar-check
+        href: https://github.com/Leo4Luffy/datos_de_miercoles
   right:
   - icon: fa-github
     href: https://github.com/Leo4Luffy
