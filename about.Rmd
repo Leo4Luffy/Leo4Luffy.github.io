@@ -30,6 +30,8 @@ include_graphics('Imagenes/yop.jpg')
 
 <br>
 
+En la línea de tiempo a continuación podrás ver un resumen de mi formación académica <i class="fas fa-graduation-cap"></i>
+
 ```{r Mi línea de tiempo, eval = TRUE, echo = FALSE, message = FALSE}
 library(VisualResume)
 
@@ -38,16 +40,16 @@ VisualResume(titles.left = '',
              timeline = data.frame(title = c('', '', '', ''),
                                    sub = c('Primaria y bachillerato en el\n Colegio La Salle', 'Zootecnia en la\n Universidad Nacional', 'Maestria en Ciencias Agrarias\n Universidad Nacional', 'Trabajo de independiente'),
                                    start = c(1995, 2007, 2015, 2017),
-                                   end = c(2006, 2014, 2018, 2020),
+                                   end = c(2006, 2014, 2018, 2021),
                                    side = c(1, 1, 0, 1)),
              milestones = data.frame(title = '',
                                      sub = '',
                                      year = c(2006, 2014, 2018)),
              events = data.frame(year = 2018,
                                  title = 'Modelación y estimación de parámetros genéticos\n en vacas criollas colombianas.'),
-             interests = list("Programación" = c(rep("R", 10), "Python"),
-                              "Bioestadística" = c(rep("Estadística multivariada", 10), rep("Diseño experimental", 5), rep("Regresión", 3)),
-                              "Genética" = c(rep("Genética poblacional", 10), rep("Genética cuantitativa", 5))),
+             interests = list('Programación' = c(rep('R', 10), 'Python'),
+                              'Bioestadística' = c(rep("Estadística multivariada", 10), rep('Diseño experimental', 5), rep('Regresión', 3)),
+                              'Genética' = c(rep('Genética poblacional', 10), rep('Genética cuantitativa', 5))),
              year.steps = 2
 )
 ```
