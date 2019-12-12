@@ -11,8 +11,7 @@ title: ""
 <div class = "col-md-6">
 
 <div class="alert alert-dismissible alert-warning">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>+ El libro **Modelos mixtos con R** esta disponible en este [enlace](https://fhernanb.github.io/libro_modelos_mixtos/) de internet.</strong>
+  <strong>El libro **Modelos mixtos con R** esta disponible en este [enlace](https://fhernanb.github.io/libro_modelos_mixtos/) de internet.</strong>
 </div>
   
 ```{r Imagen, , out.width = '240px', fig.align = 'center', eval = TRUE, echo = FALSE, message = FALSE}
@@ -33,8 +32,7 @@ include_graphics('Imagenes/LMM_R.jpg')
 </center>
 
 <div class="alert alert-dismissible alert-info">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>+ **López Martínez J L**, Quijano Bernal J H y González Herrera L G. 2019. [Estimación de parámetros genéticos para producción de leche en el día de control y a los 305 días en primeras lactancias de vacas Lucerna](http://www.lrrd.org/lrrd31/11/luggo31179.html). *
+  <strong>**López Martínez J L**, Quijano Bernal J H y González Herrera L G. 2019. [Estimación de parámetros genéticos para producción de leche en el día de control y a los 305 días en primeras lactancias de vacas Lucerna](http://www.lrrd.org/lrrd31/11/luggo31179.html). *
 Livestock Research for Rural Development*.</strong>
 </div>
 

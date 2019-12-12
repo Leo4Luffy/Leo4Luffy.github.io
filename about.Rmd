@@ -7,18 +7,15 @@ title: ""
 <div class = "col-md-6">
 
 <div class="alert alert-dismissible alert-info">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>¡Hola! Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. <a href="Documentos/CV.pdf" class="download" title="Aquí" target="_blank"> Aquí </a> podrás encontrar más información sobre mi trayectoria.</strong>
-</div>
+  <strong>
 
-<div class="alert alert-dismissible alert-danger">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Por favor, si tienes interés en comunicarte conmigo, **¡hazlo!**. Prontamente me comunicare contigo para ver en que te puedo ayudar.</strong>
-</div>
+¡Hola! Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. <a href="Documentos/CV.pdf" class="download" title="Aquí" target="_blank"> Aquí </a> podrás encontrar más información sobre mi trayectoria.
 
-<div class="alert alert-dismissible alert-warning">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <strong>Mi correo es: jollopezma@unal.edu.co</strong>
+Por favor, si tienes interés en comunicarte conmigo, **¡hazlo!**. Prontamente me comunicare contigo para ver en que te puedo ayudar.</strong>
+
+Mi correo es: jollopezma@unal.edu.co</strong>
+
+</strong>
 </div>
 
 </div>
@@ -31,8 +28,9 @@ include_graphics('Imagenes/yop.jpg')
 </div>
 </div>
 
-<div class="alert alert-dismissible alert-success">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
+<br>
+
+<div class="alert alert-dismissible alert-danger">
   <strong>En la línea de tiempo a continuación podrás ver un resumen de mi formación académica <i class="fas fa-graduation-cap"></i></strong>
 </div>
 
