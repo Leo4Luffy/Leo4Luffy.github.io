@@ -1,3 +1,4 @@
+/*En esta página encontre este estilo tan bonito: https://bootswatch.com/sketchy/?*/
 @import url("https://fonts.googleapis.com/css?family=Neucha|Cabin+Sketch");
 :root {
   --blue: #007bff;
@@ -3419,9 +3420,9 @@ input[type="button"].btn-block {
   opacity: 0;
 }
 
-.collapse:not(.show) {
+/*.collapse:not(.show) {
   display: none;
-}
+}*/
 
 .collapsing {
   position: relative;
@@ -4547,7 +4548,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
-.navbar .container,
+/*.navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4560,7 +4561,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
+}*/
 
 .navbar-brand {
   display: inline-block;

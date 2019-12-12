@@ -28,6 +28,75 @@ include_graphics('Imagenes/LMM_R.jpg')
 <br>
 
 <center>
+<h1>**¡Presentaciones en congresos!**</h1>
+</center>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Rol</th>
+      <th scope="col">Trabajo presentado</th>
+      <th scope="col">Nombre del congreso</th>
+      <th scope="col">Lugar</th>
+      <th scope="col">Año</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-danger">
+      <th scope="row">Asistente</th>
+      <td>Factores ambientales y genéticos sobre la edad al
+primer parto en hembras de la raza Romosinuano</td>
+      <td>XVI simposio iberoamericano sobre
+conservación y utilización de recursos zoogenéticos</td>
+      <td>Villavicencio - Colombia</td>
+      <td>2015</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">Ponente</th>
+      <td>Análisis de efectos que influyen en el crecimiento
+pos-destete en animales de la raza Lucerna y sus
+cruces</td>
+      <td>XIII encuentro nacional y VI internacional de
+investigadores de las ciencias pecuarias</td>
+      <td>Medellín - Colombia</td>
+      <td>2015</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">Ponente</th>
+      <td>Estimación de parámetros genéticos para la
+producción de leche en el día de control y
+producción de leche a los 305 días en primeras
+lactancias de vacas Lucerna.</td>
+      <td>XXV congreso de la asociación
+latinoamericana de producción animal y XI congreso
+nordestino de producao animal, la seguridad alimentaria en
+américa latina</td>
+      <td>Recife - Brasil</td>
+      <td>2016</td>
+    </tr>
+    <tr class="table-light">
+      <th scope="row">Ponente</th>
+      <td>Parámetros genéticos para la producción de leche
+en el día de control mediante el uso de modelos
+de regresión aleatoria</td>
+      <td>XIV encuentro nacional y VII
+internacional de investigadores de las ciencias pecuarias</td>
+      <td>Medellín - Colombia</td>
+      <td>2017</td>
+    </tr>
+    <tr class="table-primary">
+      <th scope="row">Asistente</th>
+      <td></td>
+      <td>Rday Medellín</td>
+      <td>Medellín - Colombia</td>
+      <td>2019</td>
+    </tr>
+  </tbody>
+</table> 
+
+<br>
+
+<center>
 <h1>**¡Artículos publicados!**</h1>
 </center>
 
@@ -37,4 +106,7 @@ Livestock Research for Rural Development*.</strong>
 </div>
 
 > <i class="far fa-copy"></i>
-<a href="Documentos/1er_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**
+<a href="Documentos/1er_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
+
+<br>
+
