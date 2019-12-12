@@ -1,7 +1,7 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "Mi sitio web personal"
+  title: ""
   left:
     - text: "Inicio"
       icon: fa-home

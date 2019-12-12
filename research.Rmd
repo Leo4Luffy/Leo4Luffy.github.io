@@ -3,14 +3,18 @@ title: ""
 ---
 
 <center>
-<h2>**¡Libros!**</h1>
+<h1>**¡Libros!**</h1>
 </center>
 
 <div class = "row">
 
 <div class = "col-md-6">
-  + El libro **Modelos mixtos con R** esta disponible en este [enlace](https://fhernanb.github.io/libro_modelos_mixtos/) de internet.
 
+<div class="alert alert-dismissible alert-warning">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>+ El libro **Modelos mixtos con R** esta disponible en este [enlace](https://fhernanb.github.io/libro_modelos_mixtos/) de internet.</strong>
+</div>
+  
 ```{r Imagen, , out.width = '240px', fig.align = 'center', eval = TRUE, echo = FALSE, message = FALSE}
 library(knitr)
 include_graphics('Imagenes/LMM_R.jpg')
@@ -25,13 +29,14 @@ include_graphics('Imagenes/LMM_R.jpg')
 <br>
 
 <center>
-<h2>**¡Artículos publicados!**</h1>
+<h1>**¡Artículos publicados!**</h1>
 </center>
 
-  + **López Martínez J L**, Quijano Bernal J H y González Herrera L G. 2019. [Estimación de parámetros genéticos para producción de leche en el día de control y a los 305 días en primeras lactancias de vacas Lucerna](http://www.lrrd.org/lrrd31/11/luggo31179.html). *
-Livestock Research for Rural Development*.
+<div class="alert alert-dismissible alert-info">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>+ **López Martínez J L**, Quijano Bernal J H y González Herrera L G. 2019. [Estimación de parámetros genéticos para producción de leche en el día de control y a los 305 días en primeras lactancias de vacas Lucerna](http://www.lrrd.org/lrrd31/11/luggo31179.html). *
+Livestock Research for Rural Development*.</strong>
+</div>
 
 > <i class="far fa-copy"></i>
 <a href="Documentos/1er_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**
-
-</div>
