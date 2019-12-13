@@ -56,6 +56,6 @@ VisualResume(titles.left = '',
 )
 ```
 
-```{r Imagen 2, fig.align = 'center', eval = TRUE, echo = FALSE, message = FALSE}
+```{r Imagen 2, fig.align = 'center', eval = FALSE, echo = FALSE, message = FALSE}
 include_graphics('Imagenes/Mi_línea_de_tiempo.png')
 ```
