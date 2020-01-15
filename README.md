@@ -1,6 +1,7 @@
-# Leo4Luffy.github.io
-Este repositorio contiene mi página de información personal: https://leo4luffy.github.io/
-
-####  :trollface: A continuación puedes ver mi línea de tiempo:
-
-![](https://github.com/Leo4Luffy/Leo4Luffy.github.io/blob/master/about_files/figure-html/Mi%20l%C3%ADnea%20de%20tiempo-1.png)
+<p align="center">
+<b>Algunos enlaces de interés:</b><br>
+:tongue: <a href="#"><a href="https://leo4luffy.github.io/">Mi sitio web</a></a> |
+:mailbox_with_mail: <a href="mailto:jollopezma@unal.edu.co">Mi correo electrónico</a>
+<br><br>
+<img src="https://media1.tenor.com/images/ca0f4980d209b7cb38aadf0a2021dc46/tenor.gif?itemid=11015443">
+</p>
