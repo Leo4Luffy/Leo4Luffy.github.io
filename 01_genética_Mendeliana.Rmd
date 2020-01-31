@@ -10,16 +10,16 @@ output: html_document
 <div class = "col-md-6">
 
 <div class="alert alert-dismissible alert-warning">
-  <h2 class="alert-heading">
-  <a href="#" class="alert-link">¡Objetivos de aprendizaje del siguiente escrito!</a>
-  </h2>
+  <h2>
   <strong>
-  <HR>
-- 
-- 
-- 
-- 
+  <font color="black">¡Objetivos de aprendizaje del escrito!</font>
   </strong>
+  </h2>
+  <HR>
+- <font color="black"></font>
+- <font color="black"></font>
+- <font color="black"></font>
+- <font color="black"></font>
 </div>
 
 </div>
@@ -37,34 +37,25 @@ include_graphics('Imagenes/Mendel.jpg')
 <center>
 <h1>
 <strong>
-<p class="text-primary">
-Una introducción a la herencia
-</p>
+<font color="black">Una introducción a la herencia</font>
 </strong>
 </h1>
 </center>
 
-<p class="text-muted">
-Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno humano o a una enfermedad. Estas características pueden tener una base genética, lo que significa que dependen de la información genética que una persona hereda de sus padres.
-</p>
+<font color="black">Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno humano o a una enfermedad. Estas características pueden tener una base genética, lo que significa que dependen de la información genética que una persona hereda de sus padres.
 
-<p class="text-muted">
 Sabiendo esto, ¿es posible descubrir cómo se transmite la información genética entre generaciones? Este escrito trata sobre los principios de la herencia, o cómo se transmiten los genes de generación en generación, lo cual permitirá dar respuesta a esta pregunta.
-</p>
 
 <br>
 
 <h2>
 <strong>
-<p class="text-primary">
 El monje en el jardín: Gregor Johann Mendel
-</p>
 </strong>
 </h2>
 
-<p class="text-muted">
-
-</p>
+Los principios de la herencia fueron expuestos por primera vez por un monje del siglo XIX llamado Gregor Mendel.
+</font>
 
 
 <br>
