@@ -31,8 +31,8 @@ navbar:
   right:
     - icon: fa-github
       href: https://github.com/Leo4Luffy
-    - icon: fa-twitter
-      href: https://twitter.com/leo4luffy
+    #- icon: fa-twitter
+      #href: https://twitter.com/leo4luffy
     #- icon: fa-user-o
       #href: https://www.researchgate.net/profile/Jaime_Lopez_Hoyos
     #- icon: fa-hand-peace-o
