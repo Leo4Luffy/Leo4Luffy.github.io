@@ -12,7 +12,7 @@ navbar:
     - text: "Mi investigación"
       icon: fa-flask
       href: research.html
-    - text: "Diario personal"
+    - text: "Notas personales"
       icon: fa-user-edit
       menu:
       - text: Genética Medeliana

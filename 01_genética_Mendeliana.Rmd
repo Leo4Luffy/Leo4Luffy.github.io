@@ -9,8 +9,10 @@ output: html_document
 
 <div class = "col-md-6">
 
-<div class="alert alert-dismissible alert-info">
-  <a href="#" class="alert-link">¡Objetivos de aprendizaje del escrito!</a>
+<div class="alert alert-dismissible alert-warning">
+  <h2 class="alert-heading">
+  <a href="#" class="alert-link">¡Objetivos de aprendizaje del siguiente escrito!</a>
+  </h2>
   <strong>
   <HR>
 - 
@@ -35,13 +37,19 @@ include_graphics('Imagenes/Mendel.jpg')
 <center>
 <h1>
 <strong>
-<p class="text-primary">La genética Mendeliana</p>
+<p class="text-primary">
+Una introducción a la herencia
+</p>
 </strong>
 </h1>
 </center>
 
-<p class="text-primary">
+<p class="text-muted">
+Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno humano o a una enfermedad. Estas características pueden tener una base genética, lo que significa que dependen de la información genética que una persona hereda de sus padres.
+</p>
 
+<p class="text-muted">
+Sabiendo esto, ¿es posible descubrir cómo se transmite la información genética entre generaciones? Este escrito trata sobre los principios de la herencia, o cómo se transmiten los genes de generación en generación, lo cual permitirá dar respuesta a esta pregunta.
 </p>
 
 <br>
@@ -49,12 +57,14 @@ include_graphics('Imagenes/Mendel.jpg')
 <h2>
 <strong>
 <p class="text-primary">
-El monje en el jardín: Gregor Mendel
+El monje en el jardín: Gregor Johann Mendel
 </p>
 </strong>
 </h2>
 
+<p class="text-muted">
 
+</p>
 
 
 <br>
