@@ -12,6 +12,11 @@ navbar:
     - text: "Mi investigación"
       icon: fa-flask
       href: research.html
+    - text: "Diario personal"
+      icon: fa-optin-monster
+      menu:
+      - text:
+        href:
     - text: '#rstats'
       menu:
       - text: Datos de Miércoles 
