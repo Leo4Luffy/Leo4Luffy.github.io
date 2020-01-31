@@ -40,8 +40,8 @@ include_graphics('Imagenes/Mendel.jpg')
 </h1>
 </center>
 
-<p class="text-secondary">
-After successfully computing the mean, you return to the memory of the first day you had collected data. There was one teacup giraffe that was your favorite– it was relatively small with purple spots and perky tail! You begin to wonder how rare it would be to encounter a giraffe smaller than this one. To answer this question, you need to be able to calculate a measure of spread.
+<p class="text-primary">
+
 </p>
 
 <br>
