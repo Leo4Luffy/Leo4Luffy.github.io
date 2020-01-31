@@ -44,7 +44,7 @@ include_graphics('Imagenes/Mendel.jpg')
 </h1>
 </center>
 
-<font color="black">Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno humano o a una enfermedad. Estas características pueden tener una base genética, lo que significa que dependen de la información genética que una persona hereda de sus padres.
+<font color="#9c9c9c">Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno humano o a una enfermedad. Estas características pueden tener una <font color="black">base genética</font>, lo que significa que dependen de la información genética que una persona hereda de sus padres.
 
 Sabiendo esto, ¿es posible descubrir cómo se transmite la información genética entre generaciones? Este escrito trata sobre los principios de la herencia, o cómo se transmiten los genes de generación en generación, lo cual permitirá dar respuesta a esta pregunta.
 
@@ -52,7 +52,7 @@ Sabiendo esto, ¿es posible descubrir cómo se transmite la información genéti
 
 <h2>
 <strong>
-El monje en el jardín: Gregor Johann Mendel
+<font color="black">El monje en el jardín: Gregor Johann Mendel</font>
 </strong>
 </h2>
 
