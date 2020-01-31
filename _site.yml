@@ -13,10 +13,10 @@ navbar:
       icon: fa-flask
       href: research.html
     - text: "Diario personal"
-      icon: fa-optin-monster
+      icon: fa-user-edit
       menu:
-      - text:
-        href:
+      - text: Genética Medeliana
+        href: 01_genética_Mendeliana.html
     - text: '#rstats'
       menu:
       - text: Datos de Miércoles 
