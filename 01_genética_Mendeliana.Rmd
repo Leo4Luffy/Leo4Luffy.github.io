@@ -18,10 +18,10 @@ output: html_document
   </strong>
   </h2>
   <HR>
-- <font color="black"></font>
-- <font color="black"></font>
-- <font color="black"></font>
-- <font color="black"></font>
+- 
+- 
+- 
+- 
 </div>
 
 </div>
@@ -39,12 +39,13 @@ include_graphics('Imagenes/Mendel.jpg')
 <center>
 <h1>
 <strong>
-<font color="black">Una introducción a la herencia</font>
+<p class="text-primary">
+Una introducción a la herencia</font>
 </strong>
 </h1>
 </center>
 
-<font color="#9c9c9c">Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno humano o a una enfermedad. Estas características pueden tener una <font color="black">base genética</font>, lo que significa que dependen de la información genética que una persona hereda de sus padres.
+Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno o a una enfermedad. Estas características pueden tener una <font color="black">base genética</font>, lo que significa que dependen de la información genética que el individuo hereda de sus padres.
 
 Sabiendo esto, ¿es posible descubrir cómo se transmite la información genética entre generaciones? Este escrito trata sobre los <font color="black">principios de la herencia</font>, o cómo se transmiten los genes de generación en generación, lo cual permitirá dar respuesta a esta pregunta.
 
@@ -52,12 +53,14 @@ Sabiendo esto, ¿es posible descubrir cómo se transmite la información genéti
 
 <h2>
 <strong>
-<font color="black">El monje en el jardín: Gregor Johann Mendel</font>
+El monje en el jardín: Gregor Johann Mendel</font>
 </strong>
 </h2>
 
-Los principios de la herencia fueron expuestos por primera vez por un monje del siglo XIX llamado <font color="black">Gregor Mendel</font>.
-</font>
+Los principios de la herencia fueron expuestos por primera vez por un monje del siglo XIX llamado <font color="black">Gregor Mendel</font>. Conocido como el padre de la genética, Gregor Mendel perseveró en circuntancias difíciles para hacer algunos de los descubrimientos más importantes en biología. Tuvo dificultades para pagar su educación debido a los limitados medios de su familia. Sufrió episodios de enfermedades físicas y depresión. Aún así, Gregor Mendel persistió y se graduo tanto de la escuela secundaria como de la universidad.
+
+
+</p>
 
 
 <br>
