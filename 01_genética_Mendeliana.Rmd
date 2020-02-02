@@ -22,16 +22,20 @@ output: html_document
 - 
 - 
 - 
+
 </div>
 
 </div>
 
 <div class = "col-md-6">
+
 ```{r Imagen, out.width = "38%", eval = TRUE, echo = FALSE, message = FALSE}
 library(knitr)
 include_graphics('Imagenes/Mendel.jpg')
 ```
+
 </div>
+
 </div>
 
 <br>
@@ -45,23 +49,68 @@ Una introducción a la herencia</font>
 </h1>
 </center>
 
-Algunas vez se ha preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno o a una enfermedad. Estas características pueden tener una <font color="black">base genética</font>, lo que significa que dependen de la información genética que el individuo hereda de sus padres.
+<div style='text-align:justify'>Algunas vez te haz preguntado ¿por qué hay individuos que son muy parecidos entre sí? Tal vez este parecido es más evidente entre miembros de una misma familia. Por ejemplo, dos hermanos pueden compartir un color de cabello poco común (color rojo) o estar predispuestos a un trastorno o a una enfermedad. Estas características pueden tener una <font color="black"><u>base genética</u></font>, lo que significa que dependen de la información genética que el individuo hereda de sus padres.
 
-Sabiendo esto, ¿es posible descubrir cómo se transmite la información genética entre generaciones? Este escrito trata sobre los <font color="black">principios de la herencia</font>, o cómo se transmiten los genes de generación en generación, lo cual permitirá dar respuesta a esta pregunta.
+Sabiendo esto, ¿es posible descubrir cómo se transmite la información genética entre generaciones? Este escrito trata sobre los <font color="black"><u>principios de la herencia</u></font>, o cómo se transmiten los genes de generación en generación, lo cual permitirá dar respuesta a esta pregunta.
 
 <br>
 
 <h2>
 <strong>
-El monje en el jardín: Gregor Johann Mendel</font>
+El monje en el jardín: Gregor Johann Mendel
 </strong>
 </h2>
 
-Los principios de la herencia fueron expuestos por primera vez por un monje del siglo XIX llamado <font color="black">Gregor Mendel</font>. Conocido como el padre de la genética, Gregor Mendel perseveró en circuntancias difíciles para hacer algunos de los descubrimientos más importantes en biología. Tuvo dificultades para pagar su educación debido a los limitados medios de su familia. Sufrió episodios de enfermedades físicas y depresión. Aún así, Gregor Mendel persistió y se graduo tanto de la escuela secundaria como de la universidad.
+Los principios de la herencia fueron expuestos por primera vez por un monje del siglo XIX llamado <font color="black"><u>Gregor Mendel</u></font>. Conocido como el padre de la genética, Mendel fue un maestro, aprendiz de por vida, científico y un hombre de fe.
+
+<div class = "row">
+
+<div class = "col-md-8">
+
+En las huertas del monasterio donde residia (La abadía de Santo Tomás de Brno), llevo a cabo sus famosos experimientos con guisantes que le llevaron a proponer tiempo después lo que se conoceria como las <font color="black"><u>leyes de la herencia de Mendel</u></font>. Precisamente, el éxito de Mendel se debe a la elección de la planta de guisantes (*Pisum sativum*) como sujeto experimental.
+
+</div>
+
+<div class = "col-md-4">
+
+```{r Imagen 2, out.width = "84%", eval = TRUE, echo = FALSE, message = FALSE}
+library(knitr)
+include_graphics('Imagenes/Mendel_2.jpg')
+```
+
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-9">
+
+Si bien Mendel probó con otros organismos como ratones, abejas y plantas, eligió a los guisantes como su principal sistema modelo debido a las ventajas que estos ofrecian para la investigación genética. Un <font color="black"><u>sistema modelo</u></font> es un organismo que facilita investigar una cuestión científica en particular, como por ejemplo, cómo se heredan las características. Al estudiar un sistema modelo, los investigadores pueden aprender principios generales que se aplican a otros organismos más difíciles de estudiar, como los humanos.
+
+</div>
+
+<div class = "col-md-3">
+
+```{r Imagen 3, out.width = "100%", eval = TRUE, echo = FALSE, message = FALSE}
+library(knitr)
+include_graphics('Imagenes/Mendel_3.jpg')
+```
+
+</div>
+
+</div>
 
 
+
+<br>
+
+<h2>
+<strong>
+
+</strong>
+</h2>
 </p>
-
 
 <br>
 
