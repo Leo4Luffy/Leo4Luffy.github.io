@@ -20,8 +20,8 @@ output: html_document
   <HR>
 - 
 - 
-- 
-- 
+
+<div style='text-align:justify'><font color="black"><i class="fas fa-bomb"></font></i> Si ves algo mal, <a href="mailto:jollopezma@unal.edu.co">¡hazmelo saber!</a> También estoy abierto a sugerencias.</div>
 
 </div>
 
@@ -100,9 +100,9 @@ include_graphics('Imagenes/Mendel_3.jpg')
 </div>
 
 </div>
-
-
-
+<!--
+Los estudios de Mendel constituyen un excelente ejemplo de buena técnica científica. Eligió el material de investigación adecuado para el estudio del problema en cuestión, diseñó sus experimentos cuidadosamente, recopiló grandes cantidades de datos y utilizó análisis matemáticos para mostrar que los resultados eran consistentes con su hipótesis. Las predicciones de la hipótesis se probaron en una nueva ronda de experimentación.
+-->
 <br>
 
 <h2>
