@@ -21,7 +21,7 @@ output: html_document
 - 
 - 
 
-<div style='text-align:justify'><font color="black"><i class="fa fa-hand-spock-o"></font></i> Si ves algo mal, <a href="mailto:jollopezma@unal.edu.co">¡hazmelo saber!</a> También estoy abierto a sugerencias.</div>
+<div style='text-align:justify'><font color="black"><i class="fa fa-comments-o"></font></i> Si ves algo mal, <a href="mailto:jollopezma@unal.edu.co">¡hazmelo saber!</a> También estoy abierto a sugerencias.</div>
 
 </div>
 
@@ -120,7 +120,6 @@ library(gridGraphics)
 library(emojifont)
 library(showtext) # Link donde hay varias fuentes de ejemplo (https://github.com/yixuan/showtext)
 font_add_google('Gochi Hand', 'gochi')
-font_add_google('Lobster', 'lobster')
 showtext_auto()
 
 Imagen_1 <- readJPEG('Imagenes/Guisantes.jpg', native = TRUE)
@@ -132,14 +131,14 @@ Guisantes <- data.frame(
   ggplot(aes(x, y)) +
   geom_blank() +
   annotation_custom(g1, xmin = 1.2, xmax = 1.43, ymin = 1.2, ymax = 1.6) +
-  geom_fontawesome('fa-circle', x = 1.48, y = 1.405, size = 18.4, color = 'gray54') +
-  geom_fontawesome('fa-circle', x = 1.54, y = 1.405, size = 18.4, color = 'yellow') +
-  annotate(geom = 'text', x = 1.98, y = 1.405, label = 'Color de la capa de las semillas', family = 'gochi', size = 14.8, colour = 'black') +
-  geom_fontawesome('fa-arrows-v', x = 1.48, y = 1.4, size = 28.4, color = 'black') +
-  geom_fontawesome('fa-arrows-v', x = 1.54, y = 1.4, size = 18.4, color = 'black') +
-  annotate(geom = 'text', x = 1.82, y = 1.4, label = 'Longitud del tallo', family = 'gochi', size = 14.8, colour = 'black') +
-  scale_y_continuous(limits = c(1.396, 1.41)) +
-  scale_x_continuous(limits = c(1.18, 2.4)) +
+  geom_fontawesome('fa-circle', x = 1.48, y = 1.4005, size = 18.4, color = 'gray54') +
+  geom_fontawesome('fa-circle', x = 1.54, y = 1.4005, size = 18.4, color = 'yellow') +
+  annotate(geom = 'text', x = 1.725, y = 1.4005, label = 'Color de la semilla', family = 'gochi', size = 18.8, colour = 'black') +
+  geom_fontawesome('fa-arrows-v', x = 1.48, y = 1.4, size = 32.4, color = 'black') +
+  geom_fontawesome('fa-arrows-v', x = 1.54, y = 1.4, size = 22.4, color = 'black') +
+  annotate(geom = 'text', x = 1.725, y = 1.4, label = 'Longitud del tallo', family = 'gochi', size = 18.8, colour = 'black') +
+  scale_y_continuous(limits = c(1.399, 1.4012)) +
+  scale_x_continuous(limits = c(1.18, 1.9)) +
   theme_void() +
   theme(axis.text = element_blank(),
         axis.ticks = element_blank(),
@@ -178,7 +177,7 @@ Los estudios de Mendel constituyen un excelente ejemplo de buena técnica cient�
 
 <h2>
 <strong>
-
+Investigación sobre la herencia
 </strong>
 </h2>
 </p>
