@@ -20,7 +20,7 @@ navbar:
       - text: Genética Cuantitativa
         href: 02_genética_Cuantitativa.html
       - text: Genética Poblacional
-        href: 03_genética_poblacional.html
+        href: 03_genética_Poblacional.html
     - text: '#rstats'
       menu:
       - text: Datos de Miércoles 

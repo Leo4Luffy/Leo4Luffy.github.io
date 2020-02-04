@@ -106,7 +106,7 @@ include_graphics('Imagenes/Mendel_3.jpg')
 
 <div class = "col-md-8">
 
-El logro de Mendel se puede atribuir también a los siete caracteres que eligió para su estudio. Evitó características que muestran un rango de variación; en cambio, centró su atención en las que existen en dos formas fácilmente diferenciadas, como las capas de semillas blancas versus las grises, las semillas redondas versus arrugadas y las vainas infladas versus las comprimidas.
+El logro de Mendel se puede atribuir también a los siete caracteres que eligió para su estudio. Evitó características que muestran un rango de variación; en cambio, centró su atención en las que existen en dos formas fácilmente diferenciadas, como el color de la flor blanca versus las violetas, las semillas redondas versus arrugadas y las vainas infladas versus las comprimidas.
 
 </div>
 
@@ -132,9 +132,9 @@ Guisantes <- data.frame(
   ggplot(aes(x, y)) +
   geom_blank() +
   annotation_custom(g1, xmin = 1.2, xmax = 1.43, ymin = 1.2, ymax = 1.6) +
-  geom_fontawesome('fa-circle', x = 1.48, y = 1.4005, size = 18.4, color = 'gray54') +
-  geom_fontawesome('fa-circle', x = 1.54, y = 1.4005, size = 18.4, color = 'yellow') +
-  annotate(geom = 'text', x = 1.725, y = 1.4005, label = 'Color de la semilla', family = 'gochi', size = 18.8, colour = 'black') +
+  geom_fontawesome('fa-pagelines', x = 1.48, y = 1.4005, size = 24.4, color = 'gray') +
+  geom_fontawesome('fa-pagelines', x = 1.54, y = 1.4005, size = 24.4, color = 'purple') +
+  annotate(geom = 'text', x = 1.725, y = 1.4005, label = 'Color de la flor', family = 'gochi', size = 18.8, colour = 'black') +
   geom_fontawesome('fa-arrows-v', x = 1.48, y = 1.4, size = 32.4, color = 'black') +
   geom_fontawesome('fa-arrows-v', x = 1.54, y = 1.4, size = 22.4, color = 'black') +
   annotate(geom = 'text', x = 1.725, y = 1.4, label = 'Longitud del tallo', family = 'gochi', size = 18.8, colour = 'black') +
@@ -224,7 +224,7 @@ Antes de examinar los cruces de Mendel y las conclusiones que sacó de ellos, se
   </strong>
   </h2>
   <HR>
-  <p class="mb-0">Una de dos o más formas alternativas de un gen. Por ejemplo, en los cruces de Mendel, el color de la semilla fue determinada por un gen que existe como dos <font color="black"><u>alelos</font></u> diferentes.</p>
+  <p class="mb-0">Una de dos o más formas alternativas de un gen. Por ejemplo, en los cruces de Mendel, el color de la flor fue determinada por un gen que existe como dos <font color="black"><u>alelos</font></u> diferentes.</p>
 </div>
 
 </div>
@@ -242,7 +242,7 @@ Antes de examinar los cruces de Mendel y las conclusiones que sacó de ellos, se
   </strong>
   </h2>
   <HR>
-  <p class="mb-0">Lugar específico en un cromosoma ocupado por un alelo. Por lo tanto, hay un lugar específico, un <font color="black"><u>locus</font></u>, en un cromosoma en las plantas de guisantes donde se determina el color de las semillas.</p>
+  <p class="mb-0">Lugar específico en un cromosoma ocupado por un alelo. Por lo tanto, hay un lugar específico, un <font color="black"><u>locus</font></u>, en un cromosoma en las plantas de guisantes donde se determina el color de la flor.</p>
 </div>
 
 </div>
@@ -276,6 +276,7 @@ Antes de examinar los cruces de Mendel y las conclusiones que sacó de ellos, se
 </div>
 
 </div>
+
 
 <br>
 
