@@ -17,6 +17,10 @@ navbar:
       menu:
       - text: Genética Medeliana
         href: 01_genética_Mendeliana.html
+      - text: Genética Cuantitativa
+        href: 02_genética_Cuantitativa.html
+      - text: Genética Poblacional
+        href: 03_genética_poblacional.html
     - text: '#rstats'
       menu:
       - text: Datos de Miércoles 

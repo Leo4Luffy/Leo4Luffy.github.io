@@ -189,7 +189,7 @@ Antes de examinar los cruces de Mendel y las conclusiones que sacó de ellos, se
 
 <div class = "col-md-4">
 
-<div class="alert alert-dismissible alert-danger">
+<div class="alert alert-dismissible alert-warning">
   <h2 class="alert-heading">
   <strong>
   Carácter
@@ -203,7 +203,7 @@ Antes de examinar los cruces de Mendel y las conclusiones que sacó de ellos, se
 
 <div class = "col-md-4">
 
-<div class="alert alert-dismissible alert-warning">
+<div class="alert alert-dismissible alert-danger">
   <h2 class="alert-heading">
   <strong>
   Gen
@@ -243,6 +243,34 @@ Antes de examinar los cruces de Mendel y las conclusiones que sacó de ellos, se
   </h2>
   <HR>
   <p class="mb-0">Lugar específico en un cromosoma ocupado por un alelo. Por lo tanto, hay un lugar específico, un <font color="black"><u>locus</font></u>, en un cromosoma en las plantas de guisantes donde se determina el color de las semillas.</p>
+</div>
+
+</div>
+
+<div class = "col-md-4">
+
+<div class="alert alert-dismissible alert-success">
+  <h2 class="alert-heading">
+  <strong>
+  Genotipo
+  </strong>
+  </h2>
+  <HR>
+  <p class="mb-0">El <font color="black"><u>genotipo</font></u> es el conjunto de alelos que posee un organismo individual. Un organismo diploide que posee dos alelos idénticos es homocigoto. Uno que posee dos alelos distintos es heterocigoto.</p>
+</div>
+
+</div>
+
+<div class = "col-md-4">
+
+<div class="alert alert-dismissible alert-warning">
+  <h2 class="alert-heading">
+  <strong>
+  Fenotipo
+  </strong>
+  </h2>
+  <HR>
+  <p class="mb-0">El <font color="black"><u>fenotipo</font></u> es la manifestación o aparición de una característica. Un fenotipo puede referirse a cualquier tipo de característica: física, fisiológica, bioquímica o conductual.</p>
 </div>
 
 </div>
