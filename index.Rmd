@@ -2,11 +2,9 @@
 title: ""
 ---
 
-<center>
-<div class="alert alert-dismissible alert-warning">
-<h1>**¡Bienvenido a mi sitio web personal!**</h1>
-</center>
-</div>
+<br>
+
+<center><h1><strong><u><font color="yellow">¡Bienvenido a mi sitio web personal!</font></u><strong></p></h1></center>
 
 <br>
 

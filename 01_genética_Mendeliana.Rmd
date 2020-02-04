@@ -278,6 +278,7 @@ Antes de examinar los cruces de Mendel y las conclusiones que sacó de ellos, se
 </div>
 
 
+
 <br>
 
 <H4 align="center"> Copyright &copy; 2019, página web hecha con Rmarkdown. </H4>
