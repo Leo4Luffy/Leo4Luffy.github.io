@@ -358,13 +358,13 @@ Grafo_GM_2 <- data.frame(
   annotate(geom = 'text', x = 7.0, y = 4.5, label = 'Recombinación', family = 'gochi', size = 9.8, colour = 'black') +
   geom_curve(x = 6.2, xend = 7.0, y = 6.1, yend = 4.7, arrow = arrow(length = unit(0.1, 'inch')), size = 1.0, color = 'black', curvature = -0.4) +
   geom_curve(x = 7.0, xend = 6.3, y = 4.3, yend = 3.4, arrow = arrow(length = unit(0.1, 'inch')), size = 1.0, color = 'black', curvature = -0.4) +
-  annotate(geom = 'segment', x = 5.9, xend = 5.9, y = 1.2, yend = 1.5, colour = 'black', size = 1.0, linetype = 'twodash') +
-  geom_curve(x = 5.9, xend = 4.4, y = 1.2, yend = 1.2, arrow = arrow(length = unit(0.1, 'inch')), size = 1.0, color = 'black', curvature = 0.0, linetype = 'twodash') +
+  annotate(geom = 'segment', x = 5.9, xend = 5.9, y = 1.2, yend = 1.5, colour = 'black', size = 1.0) +
+  geom_curve(x = 5.9, xend = 4.4, y = 1.2, yend = 1.2, arrow = arrow(length = unit(0.1, 'inch')), size = 1.0, color = 'black', curvature = 0.0) +
   annotate(geom = 'text', x = 6.0, y = 1.0, label = 'Causalidad', family = 'gochi', size = 8.2, colour = 'black') +
-  annotate(geom = 'segment', x = 1.0, xend = 1.2, y = 6.0, yend = 5.5, colour = 'black', size = 1.0, linetype = 'twodash') +
-  annotate(geom = 'segment', x = 1.0, xend = 1.0, y = 6.6, yend = 6.0, colour = 'black', size = 1.0, linetype = 'twodash') +
-  annotate(geom = 'segment', x = 5.6, xend = 1.0, y = 6.68, yend = 6.68, colour = 'black', size = 1.0, linetype = 'twodash') +
-  geom_curve(x = 5.6, xend = 5.8, y = 6.68, yend = 6.5, arrow = arrow(length = unit(0.1, 'inch')), size = 1.0, color = 'black', curvature = 0.0, linetype = 'twodash') +
+  annotate(geom = 'segment', x = 1.0, xend = 1.2, y = 6.0, yend = 5.5, colour = 'black', size = 1.0) +
+  annotate(geom = 'segment', x = 1.0, xend = 1.0, y = 6.68, yend = 6.0, colour = 'black', size = 1.0) +
+  annotate(geom = 'segment', x = 5.6, xend = 1.0, y = 6.68, yend = 6.68, colour = 'black', size = 1.0) +
+  geom_curve(x = 5.6, xend = 5.8, y = 6.68, yend = 6.5, arrow = arrow(length = unit(0.1, 'inch')), size = 1.0, color = 'black', curvature = 0.0) +
   scale_y_continuous(limits = c(1.0, 6.7)) +
   scale_x_continuous(limits = c(1.0, 7.3)) +
   theme_void() +
