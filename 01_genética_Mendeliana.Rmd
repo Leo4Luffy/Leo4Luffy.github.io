@@ -391,9 +391,13 @@ Durante la formación de los gametos, los alelos se separan (se segregan), por t
 </strong>
 </h2>
 
-Mendel inició sus experimentos estudiando cruces monohíbridos. Esto es, eligio dos plantas de guisantes que diferían en una sola característica. Cruzó una planta de guisantes homocigota para el color de la flor blanca con una que era homocigota para el color violeta, en lo que denomino como <font color="black"><u>generación parental (P)</font></u>. Al observar la descendencia resultante del cruce en la <font color="black"><u>primera generación filial (F1)</font></u>, Mendel descubrió que se expresaba solo uno de los fenotipos presentes en la generación parental: todas las flores eran de color blanco. Mendel también realizó cruces recíprocos obteniendo el mismo resultado: en la primera generación filial todas las flores eran de color blanco.
+Mendel inició sus experimentos estudiando cruces monohíbridos. Esto es, eligió dos plantas de guisantes que diferían en una sola característica. Cruzó una planta de guisantes homocigota para el color de la flor blanca con una que era homocigota para el color violeta, en lo que denomino como <font color="black"><u>generación parental (P)</font></u>. Al observar la descendencia resultante del cruce en la <font color="black"><u>primera generación filial (F1)</font></u>, Mendel descubrió que se expresaba solo uno de los fenotipos presentes en la generación parental: todas las flores eran de color blanco. Mendel también realizó cruces recíprocos obteniendo el mismo resultado: en la primera generación filial todas las flores eran de color blanco.
 
-```{r Cruce monohíbrido, out.width = "40%", fig.align="center", echo = FALSE, eval = TRUE, fig.showtext = TRUE}
+<div class = "row">
+
+<div class = "col-md-6">
+
+```{r Cruce monohíbrido, out.width = "80%", fig.align="center", echo = FALSE, eval = TRUE, fig.showtext = TRUE}
 
 Mono <- data.frame(
   x = c(1:4), y = c(1:4)
@@ -437,7 +441,19 @@ Mono <- data.frame(
 include_graphics('/home/leo/Escritorio/github/Leo4Luffy.github.io/01_genética_Mendeliana_files/figure-html/Cruce monohíbrido-1.png')
 ```
 
-Mendel repitió los cruces con otras plantas de guisante que diferían en otros caracteres y el resultado fue el mismo: se producía un carácter de los dos en la primera generación filial. A la caracterítica que aparecía la llamó <font color="black"><u>carácter dominante</font></u> y a la que no, <font color="black"><u>carácter recesivo</font></u>.
+</div>
+
+<div class = "col-md-6">
+
+<div class="alert alert-dismissible alert-light">
+<font color="black"><i class="far fa-comment-dots"></i></font> <sup>Los factores genéticos (alelos) que Mendel descubrió son, por convención, designados con letras; el alelo para el color de la flor blanco está representado por <font color="black"><u>A</font></u>, y el alelo para el color violeta por <font color="black"><u>a</font></u>. Las plantas en la generación parental poseían dos alelos idénticos: <font color="black"><u>AA</font></u> en el "padre" de color de flor blanco y <font color="black"><u>aa</font></u> en la "madre" de color de flor violeta.</sup>
+</div>
+
+</div>
+
+</div>
+
+Mendel repitió los cruces con otras plantas de guisante que diferían en otros caracteres. Sorprendentemente, encontró patrones muy similares de herencia: se producía un carácter de los dos en la primera generación filial. A la caracterítica que aparecía la llamó <font color="black"><u>carácter dominante</font></u> y a la que no, <font color="black"><u>carácter recesivo</font></u>.
 
 Una vez que Mendel examinó las plantas de la primera generación filial, las dejó autofecundarse naturalmente, lo cual produjo muchas semillas. Luego recogió y cultivó las semillas resultantes para producir lo que denominó como <font color="black"><u>segunda generación filiar (F2)</font></u>. Al examinar cuidadosamente las plantas, Mendel noto que el número de plantas con flor de color blanco y violeta constituían aproximadamente una proporción de 3 a 1.
 
@@ -534,7 +550,7 @@ Mono_2
 
 
 
-A partir de esta experiencia, formuló las dos primeras leyes.
+A partir de esta experiencia, Mendel formuló las dos primeras leyes.
 
 
 
