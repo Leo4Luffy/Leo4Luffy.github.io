@@ -391,6 +391,8 @@ Durante la formación de los gametos, los alelos se separan (se segregan), por t
 </strong>
 </h2>
 
+Mendel inició sus experimentos estudiando cruces monohíbridos. Es decir, eligio dos plantas de guisantes que diferían en una sola característica. Cruzó una planta de guisantes homocigota para el color de la flor blanca con una que era homocigota para el color violeta, en lo que denomino como <font color="black"><u>generación parental (P)</font></u>. Al observar la descendencia resultante del cruce en la <font color="black"><u>primera generación filial (F1)</font></u>, Mendel descubrió que se expresaba solo uno de los fenotipos presentes en la generación parental: todas las flores eran de color blanco. Mendel también realizó cruces recíprocos obteniendo el mismo resultado: en la primera generación filial todas las flores eran de color blanco.
+
 ```{r Cruce monohíbrido, out.width = "40%", fig.align="center", echo = FALSE, eval = TRUE, fig.showtext = TRUE}
 
 Mono <- data.frame(
@@ -434,6 +436,107 @@ Mono <- data.frame(
 
 include_graphics('/home/leo/Escritorio/github/Leo4Luffy.github.io/01_genética_Mendeliana_files/figure-html/Cruce monohíbrido-1.png')
 ```
+
+Mendel repitió los cruces con otras plantas de guisante que diferían en otros caracteres y el resultado fue el mismo: se producía un carácter de los dos en la primera generación filial. A la caracterítica que aparecía la llamó <font color="black"><u>carácter dominante</font></u> y a la que no, <font color="black"><u>carácter recesivo</font></u>.
+
+Una vez que Mendel examinó las plantas de la primera generación filial, las dejó autofecundarse naturalmente, lo cual produjo muchas semillas. Luego recogió y cultivó las semillas resultantes para producir lo que denominó como <font color="black"><u>segunda generación filiar (F2)</font></u>. Al examinar cuidadosamente las plantas, Mendel noto que el número de plantas con flor de color blanco y violeta constituían aproximadamente una proporción de 3 a 1.
+
+```{r Cruce monohíbrido 2, out.width = "100%", fig.align = "center", echo = FALSE, eval = TRUE, fig.showtext = TRUE}
+
+Mono_2 <- data.frame(
+  x = c(0:4), y = c(0:4)
+) %>%
+  ggplot(aes(x, y)) +
+  geom_blank() +
+  geom_fontawesome('fa-mars', x = 1.1, y = 3.8, size = 8.4, color = 'black') +
+  annotate(geom = 'text', x = 1.45, y = 3.8, label = 'Flor blanca', family = 'gochi', size = 7.4, colour = 'black') +
+  annotate(geom = 'text', x = 1.8, y = 3.8, label = 'X', family = 'gochi', size = 10.8, colour = 'black') +
+  geom_fontawesome('fa-venus', x = 1.95, y = 3.8, size = 8.4, color = 'black') +
+  annotate(geom = 'text', x = 2.30, y = 3.8, label = 'Flor violeta', family = 'gochi', size = 7.4, colour = 'black') +
+  annotate(geom = 'rect', xmin = 1.3, xmax = 1.6, ymin = 3.5, ymax = 3.7, colour = 'cyan', fill = 'cyan', alpha = 0.4) +
+  annotate(geom = 'text', x = 1.45, y = 3.6, label = 'A A', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'rect', xmin = 2.06, xmax = 2.36, ymin = 3.5, ymax = 3.7, colour = 'yellow', fill = 'yellow', alpha = 0.4) +
+  annotate(geom = 'text', x = 2.22, y = 3.6, label = 'a a', family = 'lobster', size = 7.8, colour = 'black') +
+  geom_curve(x = 1.45, xend = 1.45, y = 3.45, yend = 3.3, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  geom_curve(x = 2.22, xend = 2.22, y = 3.45, yend = 3.3, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  geom_fontawesome('fa-circle', x = 1.38, y = 3.15, size = 20.4, color = 'gray74') +
+  annotate(geom = 'rect', xmin = 1.38, xmax = 1.58, ymin = 3.14, ymax = 3.14, colour = 'gray74', fill = 'gray74', alpha = 0.4, size = 1.4) +
+  annotate(geom = 'text', x = 1.38, y = 3.14, label = 'A', family = 'lobster', size = 7.8, colour = 'black') +
+  geom_fontawesome('fa-circle', x = 2.22, y = 3.15, size = 20.4, color = 'gray74') +
+  annotate(geom = 'text', x = 2.22, y = 3.14, label = 'a', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'rect', xmin = 1.68, xmax = 1.98, ymin = 2.6, ymax = 2.8, colour = 'black', fill = 'black', alpha = 0.4) +
+  annotate(geom = 'text', x = 1.82, y = 2.7, label = 'Aa', family = 'lobster', size = 7.8, colour = 'black') +
+  geom_curve(x = 1.38, xend = 1.64, y = 2.88, yend = 2.70, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.4) +
+  geom_curve(x = 2.22, xend = 2.02, y = 2.88, yend = 2.70, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = -0.4) +
+  annotate(geom = 'text', x = 1.84, y = 2.45, label = 'Flor blanca (100%)', family = 'gochi', size = 7.4, colour = 'black') +
+  annotate(geom = 'rect', xmin = 2.6, xmax = 2.6, ymin = 3.8, ymax = 3.04, colour = 'black', fill = 'black', alpha = 0.4) +
+  geom_curve(x = 2.6, xend = 2.68, y = 3.4, yend = 3.4, arrow = arrow(length = unit(0.1, 'inch')), size = 0.4, color = 'black', curvature = 0.0) +
+  annotate(geom = 'text', x = 2.78, y = 3.4, label = 'P', family = 'gochi', size = 12.8, colour = 'black') +
+  annotate(geom = 'rect', xmin = 2.6, xmax = 2.6, ymin = 2.5, ymax = 2.9, colour = 'black', fill = 'black', alpha = 0.4) +
+  geom_curve(x = 2.6, xend = 2.68, y = 2.7, yend = 2.7, arrow = arrow(length = unit(0.1, 'inch')), size = 0.4, color = 'black', curvature = 0.0) +
+  annotate(geom = 'text', x = 2.77, y = 2.7, label = 'F1', family = 'gochi', size = 12.8, colour = 'black') +
+  geom_fontawesome('fa-mars', x = 1.1, y = 2.0, size = 8.4, color = 'black') +
+  geom_curve(x = 1.7, xend = 1.4, y = 2.34, yend = 2.1, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  geom_curve(x = 1.9, xend = 2.2, y = 2.34, yend = 2.1, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  annotate(geom = 'text', x = 1.45, y = 2.0, label = 'Flor blanca', family = 'gochi', size = 7.4, colour = 'black') +
+  annotate(geom = 'text', x = 1.8, y = 2.0, label = 'X', family = 'gochi', size = 10.8, colour = 'black') +
+  geom_fontawesome('fa-venus', x = 1.95, y = 2.0, size = 8.4, color = 'black') +
+  annotate(geom = 'text', x = 2.30, y = 2.0, label = 'Flor blanca', family = 'gochi', size = 7.4, colour = 'black') +
+  annotate(geom = 'rect', xmin = 1.3, xmax = 1.6, ymin = 1.7, ymax = 1.9, colour = 'cyan', fill = 'cyan', alpha = 0.4) +
+  annotate(geom = 'text', x = 1.45, y = 1.8, label = 'A a', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'rect', xmin = 2.06, xmax = 2.36, ymin = 1.7, ymax = 1.9, colour = 'yellow', fill = 'yellow', alpha = 0.4) +
+  annotate(geom = 'text', x = 2.22, y = 1.8, label = 'A a', family = 'lobster', size = 7.8, colour = 'black') +
+  geom_fontawesome('fa-circle', x = 1.2, y = 1.3, size = 20.4, color = 'gray74') +
+  annotate(geom = 'rect', xmin = 1.2, xmax = 1.4, ymin = 1.25, ymax = 1.25, colour = 'gray74', fill = 'gray74', alpha = 0.4, size = 1.4) +
+  geom_fontawesome('fa-circle', x = 1.6, y = 1.3, size = 20.4, color = 'gray74') +
+  annotate(geom = 'rect', xmin = 1.6, xmax = 1.8, ymin = 1.25, ymax = 1.25, colour = 'gray74', fill = 'gray74', alpha = 0.4, size = 1.4) +
+  annotate(geom = 'text', x = 1.2, y = 1.3, label = 'A', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'text', x = 1.6, y = 1.3, label = 'a', family = 'lobster', size = 7.8, colour = 'black') +
+  geom_curve(x = 1.4, xend = 1.3, y = 1.6, yend = 1.5, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  geom_curve(x = 1.5, xend = 1.6, y = 1.6, yend = 1.5, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  geom_fontawesome('fa-circle', x = 2.1, y = 1.3, size = 20.4, color = 'gray74') +
+  geom_fontawesome('fa-circle', x = 2.4, y = 1.3, size = 20.4, color = 'gray74') +
+  annotate(geom = 'text', x = 2.1, y = 1.3, label = 'A', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'text', x = 2.4, y = 1.3, label = 'a', family = 'lobster', size = 7.8, colour = 'black') +
+  geom_curve(x = 2.2, xend = 2.1, y = 1.6, yend = 1.5, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  geom_curve(x = 2.3, xend = 2.4, y = 1.6, yend = 1.5, arrow = arrow(length = unit(0.1, 'inch')), size = 0.8, color = 'black', curvature = 0.0) +
+  annotate(geom = 'rect', xmin = 1.0, xmax = 1.3, ymin = 0.8, ymax = 0.6, colour = 'black', fill = 'black', alpha = 0.4) +
+  annotate(geom = 'text', x = 1.15, y = 0.7, label = 'A A', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'rect', xmin = 1.5, xmax = 1.8, ymin = 0.8, ymax = 0.6, colour = 'black', fill = 'black', alpha = 0.4) +
+  annotate(geom = 'text', x = 1.65, y = 0.7, label = 'A a', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'rect', xmin = 1.9, xmax = 2.2, ymin = 0.8, ymax = 0.6, colour = 'black', fill = 'black', alpha = 0.4) +
+  annotate(geom = 'text', x = 2.05, y = 0.7, label = 'A a', family = 'lobster', size = 7.8, colour = 'black') +
+  annotate(geom = 'rect', xmin = 2.4, xmax = 2.7, ymin = 0.8, ymax = 0.6, colour = 'black', fill = 'black', alpha = 0.4) +
+  annotate(geom = 'text', x = 2.55, y = 0.7, label = 'a a', family = 'lobster', size = 7.8, colour = 'black') +
+  geom_curve(x = 1.2, xend = 1.1, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  geom_curve(x = 1.2, xend = 1.6, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  geom_curve(x = 1.6, xend = 2.05, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  geom_curve(x = 1.6, xend = 2.55, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  geom_curve(x = 2.1, xend = 1.2, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  geom_curve(x = 2.1, xend = 2.1, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  geom_curve(x = 2.4, xend = 1.7, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  geom_curve(x = 2.4, xend = 2.6, y = 1.05, yend = 0.85, arrow = arrow(length = unit(0.1, 'inch')), size = 0.6, color = 'black', curvature = 0.0) +
+  annotate(geom = 'rect', xmin = 1.1, xmax = 2.1, ymin = 0.4, ymax = 0.4, colour = 'black', fill = 'black', alpha = 0.4) +
+  annotate(geom = 'rect', xmin = 2.4, xmax = 2.7, ymin = 0.4, ymax = 0.4, colour = 'black', fill = 'black', alpha = 0.4) +
+  annotate(geom = 'text', x = 1.65, y = 0.25, label = 'Flor blanca (75%)', family = 'gochi', size = 7.4, colour = 'black') +
+  annotate(geom = 'text', x = 2.6, y = 0.25, label = 'Flor violeta (25%)', family = 'gochi', size = 7.4, colour = 'black') +
+  annotate(geom = 'rect', xmin = 3.0, xmax = 3.0, ymin = 0.5, ymax = 0.8, colour = 'black', fill = 'black', alpha = 0.4) +
+  geom_curve(x = 3.0, xend = 3.1, y = 0.65, yend = 0.65, arrow = arrow(length = unit(0.1, 'inch')), size = 0.4, color = 'black', curvature = 0.0) +
+  annotate(geom = 'text', x = 3.2, y = 0.65, label = 'F2', family = 'gochi', size = 12.8, colour = 'black') +
+  scale_y_continuous(limits = c(0.2, 3.8)) +
+  #scale_x_continuous(limits = c(1.2, 2.6)) +
+  theme_void() +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        axis.title = element_blank())
+Mono_2
+```
+
+
+
+A partir de esta experiencia, formuló las dos primeras leyes.
+
+
 
 <!-- link de la última parte del escrito: https://www.nature.com/articles/s41588-019-0501-0.pdf -->
 
