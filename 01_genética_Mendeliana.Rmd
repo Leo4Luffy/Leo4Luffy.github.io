@@ -391,7 +391,7 @@ Durante la formación de los gametos, los alelos se separan (se segregan), por t
 </strong>
 </h2>
 
-Mendel inició sus experimentos estudiando cruces monohíbridos. Es decir, eligio dos plantas de guisantes que diferían en una sola característica. Cruzó una planta de guisantes homocigota para el color de la flor blanca con una que era homocigota para el color violeta, en lo que denomino como <font color="black"><u>generación parental (P)</font></u>. Al observar la descendencia resultante del cruce en la <font color="black"><u>primera generación filial (F1)</font></u>, Mendel descubrió que se expresaba solo uno de los fenotipos presentes en la generación parental: todas las flores eran de color blanco. Mendel también realizó cruces recíprocos obteniendo el mismo resultado: en la primera generación filial todas las flores eran de color blanco.
+Mendel inició sus experimentos estudiando cruces monohíbridos. Esto es, eligio dos plantas de guisantes que diferían en una sola característica. Cruzó una planta de guisantes homocigota para el color de la flor blanca con una que era homocigota para el color violeta, en lo que denomino como <font color="black"><u>generación parental (P)</font></u>. Al observar la descendencia resultante del cruce en la <font color="black"><u>primera generación filial (F1)</font></u>, Mendel descubrió que se expresaba solo uno de los fenotipos presentes en la generación parental: todas las flores eran de color blanco. Mendel también realizó cruces recíprocos obteniendo el mismo resultado: en la primera generación filial todas las flores eran de color blanco.
 
 ```{r Cruce monohíbrido, out.width = "40%", fig.align="center", echo = FALSE, eval = TRUE, fig.showtext = TRUE}
 
@@ -441,7 +441,7 @@ Mendel repitió los cruces con otras plantas de guisante que diferían en otros 
 
 Una vez que Mendel examinó las plantas de la primera generación filial, las dejó autofecundarse naturalmente, lo cual produjo muchas semillas. Luego recogió y cultivó las semillas resultantes para producir lo que denominó como <font color="black"><u>segunda generación filiar (F2)</font></u>. Al examinar cuidadosamente las plantas, Mendel noto que el número de plantas con flor de color blanco y violeta constituían aproximadamente una proporción de 3 a 1.
 
-```{r Cruce monohíbrido 2, out.width = "100%", fig.align = "center", echo = FALSE, eval = TRUE, fig.showtext = TRUE}
+```{r Cruce monohíbrido 2, out.width = "80%", fig.align = "center", echo = FALSE, eval = TRUE, fig.showtext = TRUE}
 
 Mono_2 <- data.frame(
   x = c(0:4), y = c(0:4)
