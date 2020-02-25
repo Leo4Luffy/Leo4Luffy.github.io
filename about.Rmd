@@ -9,7 +9,7 @@ title: ""
 <div class="alert alert-dismissible alert-info">
   <strong>
 
-¡Hola! Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. <a href="Documentos/CV.pdf" class="download" title="Aquí" target="_blank"> Aquí </a> podrás encontrar más información sobre mi trayectoria.
+¡Hola! Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación.
 
 Por favor, si tienes interés en comunicarte conmigo, **¡hazlo!**. Prontamente me comunicare contigo para ver en que te puedo ayudar.</strong>
 

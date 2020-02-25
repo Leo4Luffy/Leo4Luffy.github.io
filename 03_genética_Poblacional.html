@@ -267,12 +267,30 @@ $(document).ready(function () {
     Inicio
   </a>
 </li>
-<li>
-  <a href="about.html">
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-hand-spock-o"></span>
      
     Acerca de mí
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="about.html">
+        <span class="fa fa fa fa-male"></span>
+         
+        Pequeña presentación
+      </a>
+    </li>
+    <li>
+      <a href="Documentos/index.html">
+        <span class="fa fa fa fa-file-text-o"></span>
+         
+        Mi hoja de vida
+      </a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="research.html">
@@ -297,7 +315,7 @@ $(document).ready(function () {
       <a href="02_genética_Cuantitativa.html">Genética Cuantitativa</a>
     </li>
     <li>
-      <a href="03_genética_poblacional.html">Genética Poblacional</a>
+      <a href="03_genética_Poblacional.html">Genética Poblacional</a>
     </li>
   </ul>
 </li>
