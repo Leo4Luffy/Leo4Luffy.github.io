@@ -8,13 +8,7 @@ navbar:
       href: index.html
     - text: "Acerca de mí"
       icon: fa-hand-spock-o
-      menu:
-      - text: "Pequeña presentación"
-        href: about.html
-        icon: fa fa-male
-      - text: "Mi hoja de vida"
-        href: Documentos/index.html
-        icon: fa fa-file-text-o 
+      href: about.html
     - text: "Mi investigación"
       icon: fa-flask
       href: research.html
