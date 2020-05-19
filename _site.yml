@@ -26,12 +26,12 @@ navbar:
       - text: Datos de Miércoles 
         icon: fa-calendar-check
         href: https://github.com/Leo4Luffy/datos_de_miercoles
-      - text: Aplicaciones shiny
-        icon: fa-lightbulb-o
-        href: https://github.com/Leo4Luffy
-      - text: Paquetes de R
-        icon: fa-cube
-        href: https://github.com/Leo4Luffy
+      #- text: Aplicaciones shiny
+        #icon: fa-lightbulb-o
+        #href: https://github.com/Leo4Luffy
+      #- text: Paquetes de R
+        #icon: fa-cube
+        #href: https://github.com/Leo4Luffy
   right:
     - icon: fa-github
       href: https://github.com/Leo4Luffy

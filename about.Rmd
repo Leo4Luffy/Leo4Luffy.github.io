@@ -6,29 +6,29 @@ title: ""
 
 <div class = "col-md-6">
 
-<div class="alert alert-dismissible alert-info">
-  <strong>
+<div class="alert alert-dismissible alert-warning">
 
-¡Hola! Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. <a href="https://leo4luffy.github.io/Documentos/index.html">Aquí</a> puedes encontrar mayor información sobre mi trayectoria académica.
+<font color = "black">¡Hola! Mi nombre es Jorge Leonardo López Martínez, aunque mis amigos me suelen decir Leo <i class="far fa-smile-beam"></i>. Gracias por visitar mi sitio web personal. Mis intereses son la genética, la bioestadística, y la programación. <a href="https://leo4luffy.github.io/Documentos/index.html">Aquí</a> puedes encontrar mayor información sobre mi trayectoria académica.
 
-Por favor, si tienes interés en comunicarte conmigo, **¡hazlo!**. Prontamente me comunicare contigo para ver en que te puedo ayudar.</strong>
+Por favor, si tienes interés en comunicarte conmigo, **¡hazlo!**. Me comunicare contigo para ver en que te puedo ayudar.
 
-Mi correo es: jollopezma@unal.edu.co</strong>
+Mi correo es: jollopezma@unal.edu.co</font>
 
-</strong>
 </div>
 
 </div>
 
 <div class = "col-md-6">
+
 ```{r Imagen, eval = TRUE, echo = FALSE, message = FALSE}
 library(knitr)
 include_graphics('Imagenes/yop.jpg')
 ```
-</div>
+
 </div>
 
-<br>
+</div>
+
 <!--
 <div class="alert alert-dismissible alert-danger">
   <strong>En la línea de tiempo a continuación podrás ver un resumen de mi formación académica <i class="fas fa-graduation-cap"></i></strong>
