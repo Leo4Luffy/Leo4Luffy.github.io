@@ -41,13 +41,25 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 <div class = "col-md-6">
 
+<div class="alert alert-dismissible alert-info">
+<div style='text-align:justify'>
+<font color = "black"><u>López Martínez J L</u>, Quijano Bernal J H, Garces Blanquiceth J L y Ossa Saraz G A. 2020. Efecto de caracteres propios e inherentes al animal sobre la edad al primer parto en la hembra bovina de la raza Romosinuano. *Revista de la facultad de ciencias*.</font>
+</div>
+
+> <i class="far fa-copy"></i>
+<a href="Documentos/2do_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
+</a>
+
+</div>
+
+</div>
+
+<div class = "col-md-6">
+
 <div class="alert alert-dismissible alert-danger">
 
 <div style='text-align:justify'>
 <font color = "black"><u>López Martínez J L</u>, Quijano Bernal J H y González Herrera L G. 2019. Estimación de parámetros genéticos para producción de leche en el día de control y a los 305 días en primeras lactancias de vacas Lucerna. *Livestock Research for Rural Development*.</font>
-
-</div>
-
 </div>
 
 > <i class="far fa-copy"></i>
@@ -56,9 +68,8 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 </div>
 
-<div class = "col-md-6">
-
 </div>
+
 </div>
 
 <br>
