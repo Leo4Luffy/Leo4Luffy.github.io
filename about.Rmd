@@ -29,6 +29,11 @@ include_graphics('Imagenes/yop.jpg')
 
 </div>
 
+```{r Mi vida en meses, eval = TRUE, echo = FALSE, message = FALSE, fig.align='center'}
+
+include_graphics('Imagenes/Mi_vida_en_meses.png')
+```
+
 <!--
 <div class="alert alert-dismissible alert-danger">
   <strong>En la línea de tiempo a continuación podrás ver un resumen de mi formación académica <i class="fas fa-graduation-cap"></i></strong>
