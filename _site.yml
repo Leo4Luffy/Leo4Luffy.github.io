@@ -12,11 +12,11 @@ navbar:
     - text: "Mi investigación"
       icon: fa-flask
       href: research.html
-    - text: "Notas personales"
-      icon: fa-user-edit
-      menu:
-      - text: Genética Medeliana
-        href: 01_genética_Mendeliana.html
+    #- text: "Notas personales"
+      #icon: fa-user-edit
+      #menu:
+      #- text: Genética Medeliana
+        #href: 01_genética_Mendeliana.html
       #- text: Genética Cuantitativa
         #href: 02_genética_Cuantitativa.html
       #- text: Genética Poblacional
