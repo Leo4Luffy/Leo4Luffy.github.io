@@ -41,14 +41,50 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 <div class = "col-md-6">
 
+<div class="alert alert-dismissible alert-secondary">
+
+<div style='text-align:justify'>
+<font color = "black">Ossa Saraz G A, <u>López Martínez J L</u>, Santana Rodríguez M O, Garces Blanquiceth J L. 2021. Heredabilidad y tendencias genéticas para caracteres del crecimiento en bovinos criollos Romosinuano. *Archivos Latinoamericanos de Producción Animal*.</font>
+</div>
+
+> <i class="far fa-copy"></i>
+<a href=Documentos/4to_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
+</a>
+
+</div>
+
+</div>
+
+<div class = "col-md-6">
+
 <div class="alert alert-dismissible alert-warning">
 
 <div style='text-align:justify'>
-<font color = "black">Ossa Saraz G A, <u>López Martínez J L</u>, Quijano Bernal J H, Santana-Rodríguez M O y Garcés Blanquiceth J L. 2021. Análisis retrospectivo de caracteres reproductivos en hembras bovinas criollas colombianas Romosinuano. *Ciencia y tecnología agropecuaria*.</font>
+<font color = "black">Ossa Saraz G A, <u>López Martínez J L</u>, Quijano Bernal J H, Santana Rodríguez M O y Garcés Blanquiceth J L. 2021. Análisis retrospectivo de caracteres reproductivos en hembras bovinas criollas colombianas Romosinuano. *Ciencia y Tecnología Agropecuaria*.</font>
 </div>
 
 > <i class="far fa-copy"></i>
 <a href="Documentos/3er_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class = "row">
+
+<div class = "col-md-6">
+
+<div class="alert alert-dismissible alert-danger">
+
+<div style='text-align:justify'>
+<font color = "black"><u>López Martínez J L</u>, Quijano Bernal J H, Garces Blanquiceth J L y Ossa Saraz G A. 2020. Efecto de caracteres propios e inherentes al animal sobre la edad al primer parto en la hembra bovina de la raza Romosinuano. *Revista de la Facultad de Ciencias*.</font>
+</div>
+
+> <i class="far fa-copy"></i>
+<a href="Documentos/2do_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
 </a>
 
 </div>
@@ -60,33 +96,6 @@ include_graphics('Imagenes/LMM_R.jpg')
 <div class="alert alert-dismissible alert-info">
 
 <div style='text-align:justify'>
-<font color = "black"><u>López Martínez J L</u>, Quijano Bernal J H, Garces Blanquiceth J L y Ossa Saraz G A. 2020. Efecto de caracteres propios e inherentes al animal sobre la edad al primer parto en la hembra bovina de la raza Romosinuano. *Revista de la facultad de ciencias*.</font>
-</div>
-
-> <i class="far fa-copy"></i>
-<a href="Documentos/2do_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-<div class = "row">
-
-<div class = "col-md-6">
-
-<div class="alert alert-dismissible alert-danger">
-
-<div style='text-align:justify'>
 <font color = "black"><u>López Martínez J L</u>, Quijano Bernal J H y González Herrera L G. 2019. Estimación de parámetros genéticos para producción de leche en el día de control y a los 305 días en primeras lactancias de vacas Lucerna. *Livestock Research for Rural Development*.</font>
 </div>
 
@@ -95,12 +104,6 @@ include_graphics('Imagenes/LMM_R.jpg')
 </a>
 
 </div>
-
-</div>
-
-<div class = "col-md-6">
-
-
 
 </div>
 
