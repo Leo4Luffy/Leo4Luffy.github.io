@@ -41,7 +41,7 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 <div class = "col-md-6">
 
-<div class="alert alert-dismissible alert-success">
+<div class="alert alert-dismissible alert-secondary">
 
 <div style='text-align:justify'>
 <font color = "black">Ossa Saraz G A, <u>López Martínez J L</u>, Santana Rodríguez M O, Garces Blanquiceth J L. 2021. Heredabilidad y tendencias genéticas para caracteres del crecimiento en bovinos criollos Romosinuano. *Archivos Latinoamericanos de Producción Animal*.</font>
