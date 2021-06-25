@@ -26,3 +26,7 @@ xaringanExtra::embed_xaringan(
 
 </div>
 </div>
+
+<br>
+
+<H4 align="center"> Copyright &copy; 2021, página web hecha con Rmarkdown. </H4>

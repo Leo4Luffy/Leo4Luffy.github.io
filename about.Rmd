@@ -67,4 +67,4 @@ include_graphics('Imagenes/Mi_línea_de_tiempo.png')
 
 <br>
 
-<H4 align="center"> Copyright &copy; 2019, página web hecha con Rmarkdown. </H4>
+<H4 align="center"> Copyright &copy; 2021, página web hecha con Rmarkdown. </H4>
