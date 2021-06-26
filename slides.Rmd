@@ -2,13 +2,15 @@
 title: ""
 ---
 
+<br>
+
 <div class = "row">
 
 <div class = "col-md-6">
 
 <div style='text-align:center'>
 
-<h1><p class="text-info">Presentación del trabajo de fin de máster</p></h1>
+<strong><p class="text-info">Presentación del trabajo de fin de máster</p></strong>
 
 </div>
 
