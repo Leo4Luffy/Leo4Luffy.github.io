@@ -10,7 +10,7 @@ title: ""
 
 <div style='text-align:center'>
 
-<strong><p class="text-info">Presentación del trabajo de fin de máster</p></strong>
+<h2><strong>Presentación del trabajo de fin de máster</strong></h2>
 
 </div>
 
@@ -26,7 +26,20 @@ xaringanExtra::embed_xaringan(
 
 <div class = "col-md-6">
 
+<br>
+
+<div style='text-align:justify'>
+
+<p class="text-primary">Descripción:</p>
+
+<HR>
+
+<p><small>Presentación de la tesis académica para obtener el grado de Máster en Mejora Genética bajo la dirección del prof. dr. [Miguel Pérez Enciso](https://www.icrea.cat/Web/ScientificStaff/Miguel-Perez-Enciso-255).</small></p>
+
 </div>
+
+</div>
+
 </div>
 
 <br>
