@@ -17,7 +17,7 @@ title: ""
 ```{r, echo = FALSE}
 
 xaringanExtra::embed_xaringan(
-  url = "https://leo-tfm.netlify.app",
+  url = "https://tfm-leo.netlify.app",
   ratio = "16:9"
 )
 ```
