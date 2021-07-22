@@ -137,8 +137,6 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 </div>
 
-</div>
-
 <br>
 
 <center>
