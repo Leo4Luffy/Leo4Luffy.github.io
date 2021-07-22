@@ -43,6 +43,22 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 <div class = "col-md-6">
 
+<div class="alert alert-dismissible alert-info">
+
+<div style='text-align:justify'>
+<font color = "black">Ossa Saraz G A, <u>López Martínez J L</u>, Hernández Barajas F, Santana Rodríguez M O, Garces Blanquiceth J L. 2021. Estimación de la heredabilidad del intervalo entre partos en bovinos Romosinuano mediante el modelo lineal mixto generalizado. *Ciencia y Tecnología Agropecuaria.*.</font>
+</div>
+
+> <i class="far fa-copy"></i>
+<a href="Documentos/5to_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
+</a>
+
+</div>
+
+</div>
+
+<div class = "col-md-6">
+
 <div class="alert alert-dismissible alert-secondary">
 
 <div style='text-align:justify'>
@@ -56,6 +72,10 @@ include_graphics('Imagenes/LMM_R.jpg')
 </div>
 
 </div>
+
+</div>
+
+<div class = "row">
 
 <div class = "col-md-6">
 
@@ -73,10 +93,6 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 </div>
 
-</div>
-
-<div class = "row">
-
 <div class = "col-md-6">
 
 <div class="alert alert-dismissible alert-danger">
@@ -93,6 +109,10 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 </div>
 
+</div>
+
+<div class = "row">
+
 <div class = "col-md-6">
 
 <div class="alert alert-dismissible alert-info">
@@ -104,6 +124,14 @@ include_graphics('Imagenes/LMM_R.jpg')
 > <i class="far fa-copy"></i>
 <a href="Documentos/1er_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
 </a>
+
+</div>
+
+</div>
+
+<div class = "col-md-6">
+
+
 
 </div>
 
