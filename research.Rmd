@@ -43,10 +43,27 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 <div class = "col-md-6">
 
+<div class="alert alert-dismissible alert-danger">
+
+<div style='text-align:justify'>
+<font color = "black"><u>López Martínez J L</u>, Ossa Saraz G A, Santana Rodríguez M O. 2021. Estimación de parámetros genéticos para caracteres de crecimiento en bovinos criollos Romosinuano. *Revista Colombiana de Ciencia Animal - RECIA*.</font>
+</div>
+
+> <i class="far fa-copy"></i>
+<a href="Documentos/6to_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
+</a>
+
+
+</div>
+
+</div>
+
+<div class = "col-md-6">
+
 <div class="alert alert-dismissible alert-info">
 
 <div style='text-align:justify'>
-<font color = "black">Ossa Saraz G A, <u>López Martínez J L</u>, Hernández Barajas F, Santana Rodríguez M O, Garces Blanquiceth J L. 2021. Estimación de la heredabilidad del intervalo entre partos en bovinos Romosinuano mediante el modelo lineal mixto generalizado. *Ciencia y Tecnología Agropecuaria.*.</font>
+<font color = "black">Ossa Saraz G A, <u>López Martínez J L</u>, Hernández Barajas F, Santana Rodríguez M O, Garces Blanquiceth J L. 2021. Estimación de la heredabilidad del intervalo entre partos en bovinos Romosinuano mediante el modelo lineal mixto generalizado. *Ciencia y Tecnología Agropecuaria*.</font>
 </div>
 
 > <i class="far fa-copy"></i>
@@ -56,6 +73,10 @@ include_graphics('Imagenes/LMM_R.jpg')
 </div>
 
 </div>
+
+</div>
+
+<div class = "row">
 
 <div class = "col-md-6">
 
@@ -73,10 +94,6 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 </div>
 
-</div>
-
-<div class = "row">
-
 <div class = "col-md-6">
 
 <div class="alert alert-dismissible alert-warning">
@@ -92,6 +109,10 @@ include_graphics('Imagenes/LMM_R.jpg')
 </div>
 
 </div>
+
+</div>
+
+<div class = "row">
 
 <div class = "col-md-6">
 
@@ -109,10 +130,6 @@ include_graphics('Imagenes/LMM_R.jpg')
 
 </div>
 
-</div>
-
-<div class = "row">
-
 <div class = "col-md-6">
 
 <div class="alert alert-dismissible alert-info">
@@ -124,14 +141,6 @@ include_graphics('Imagenes/LMM_R.jpg')
 > <i class="far fa-copy"></i>
 <a href="Documentos/1er_articulo.pdf" class="download" title="PDF" target="_blank"> <sup>**PDF**</sup>
 </a>
-
-</div>
-
-</div>
-
-<div class = "col-md-6">
-
-
 
 </div>
 
