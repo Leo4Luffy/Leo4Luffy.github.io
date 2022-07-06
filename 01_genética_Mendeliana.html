@@ -9,12 +9,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="" />
 
 
-<title>01_genética_Mendeliana.utf8</title>
+<title>01_genética_Mendeliana.knit</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -49,6 +49,7 @@
 
 
 
+
 <link rel="stylesheet" href="estilo.css" type="text/css" />
 
 
@@ -73,6 +74,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -225,7 +229,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -236,27 +240,34 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Inicio
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fas fa-hand-spock-o"></span>
+    <span class="fa fa-hand-spock-o"></span>
      
     Acerca de mí
   </a>
 </li>
 <li>
   <a href="research.html">
-    <span class="fas fa-flask"></span>
+    <span class="fa fa-flask"></span>
      
     Mi investigación
   </a>
 </li>
+<li>
+  <a href="slides.html">
+    <span class="fa fa-chalkboard-teacher"></span>
+     
+    Presentaciones
+  </a>
+</li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     #rstats
      
     <span class="caret"></span>
@@ -264,7 +275,7 @@ $(document).ready(function () {
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="https://github.com/Leo4Luffy/datos_de_miercoles">
-        <span class="fas fa-calendar-check"></span>
+        <span class="fa fa-calendar-check"></span>
          
         Datos de Miércoles
       </a>
@@ -275,7 +286,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/Leo4Luffy">
-    <span class="fas fa-github"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>

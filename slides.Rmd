@@ -17,7 +17,7 @@ title: ""
 ```{r, echo = FALSE}
 
 xaringanExtra::embed_xaringan(
-  url = "https://tfm-leo.netlify.app",
+  url = "https://leo4luffy.github.io/Repo_TFM/Presentacion/index.html#1",
   ratio = "16:9"
 )
 ```
@@ -34,7 +34,7 @@ xaringanExtra::embed_xaringan(
 
 <HR>
 
-<p><small>Presentación de la tesis académica para obtener el grado de Máster en Mejora Genética bajo la dirección del prof. dr. [Miguel Pérez Enciso](https://www.icrea.cat/Web/ScientificStaff/Miguel-Perez-Enciso-255).<!-- [Aquí](https://leo4luffy.github.io/Repo_TFM/) encontraras más información al respecto.</small>-->
+<p><small>Presentación de la tesis académica para obtener el grado de Máster en Mejora Genética bajo la dirección del prof. dr. [Miguel Pérez Enciso](https://www.icrea.cat/Web/ScientificStaff/Miguel-Perez-Enciso-255). [Aquí](https://leo4luffy.github.io/Repo_TFM/) encontraras más información al respecto.</small>
 
 </div>
 
